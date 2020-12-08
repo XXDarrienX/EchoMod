@@ -1,5 +1,0 @@
-on_five_year_pulse = {
-	events = {
-		affinity_census.1
-	}
-}

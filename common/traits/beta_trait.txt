@@ -1,9 +1,0 @@
-trait_beta = {
-	cost = 0
-	modification = no
-	randomized = no
-	allowed_archetypes = { LITHOID }
-	modifier = {
-		pop_growth_speed = 3
-	}
-}

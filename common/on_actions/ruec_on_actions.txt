@@ -1,7 +1,0 @@
-
-on_entering_system = {
-	events = {
-		ruec.1
-		ruec.4
-	}
-}

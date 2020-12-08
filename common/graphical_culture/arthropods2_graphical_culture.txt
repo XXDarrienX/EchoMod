@@ -1,3 +1,0 @@
-arthropoid_02 = {
-	fallback = arthropoid_01
-}
