@@ -18,6 +18,7 @@ district_city = {
 	potential = {
 		exists = owner
 		owner = { is_regular_empire = yes }
+		is_resort_planet = no
 		OR = {
 			uses_district_set = standard
 			uses_district_set = hive_world
@@ -200,6 +201,7 @@ district_hive = {
 	potential = {
 		exists = owner
 		owner = { is_hive_empire = yes }
+		is_resort_planet = no
 		OR = {
 			uses_district_set = standard
 			uses_district_set = hive_world
@@ -336,6 +338,7 @@ district_nexus = {
 	potential = {
 		exists = owner
 		owner = { is_machine_empire = yes }
+		is_resort_planet = no
 		OR = {
 			uses_district_set = standard
 			uses_district_set = hive_world
