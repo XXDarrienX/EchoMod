@@ -19,10 +19,10 @@ soul_eater_policy = {
 		name = "soul_eater_fasting"
 		
 		modifier = {
-			planet_pops_soul_crystals_upkeep_mult = -1
+			planet_pops_soul_crystals_upkeep_mult = -2
 			army_attack_damage_mult = 0.25
 			ship_fire_rate_mult = 0.25
-			pop_growth_speed_reduction = 0.25
+			pop_growth_speed_reduction = 0.50
         }
         
         valid = {
