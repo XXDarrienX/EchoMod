@@ -21,6 +21,8 @@
 
 @jumps = 2
 
+@lithoid_trait_resource_production = 0.25
+
 ## Tracking Modifications ##
 @LGT = -0.3
 @TT = -0.15

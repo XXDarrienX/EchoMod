@@ -22,8 +22,8 @@ tech_bio_alloys_1 = {
 			}			
 		}
 		modifier = {
-			factor = 5
-			years_passed > 30
+			factor = 20
+			years_passed > 20
 		}
 	}
 	
@@ -66,7 +66,7 @@ tech_bio_alloys_2 = {
 		}
 		modifier = {
 			factor = 5
-			years_passed > 75
+			years_passed > 50
 		}
 		modifier = {
 			factor = 1.25
