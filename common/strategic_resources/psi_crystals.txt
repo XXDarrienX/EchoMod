@@ -1,7 +1,7 @@
 soul_crystals = {
 	tradable = yes
-	market_amount = 150
-	market_price = 150
+	market_amount = 50
+	market_price = 100
 	max = 100000
 
 	visibility_prerequisite = { always = yes }

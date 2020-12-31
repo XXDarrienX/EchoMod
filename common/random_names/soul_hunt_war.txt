@@ -17,5 +17,5 @@ war_name_format = {
             }
 		}
 	}
-	format = "[This.MainAttacker.GetName] <soul_hunt_war_names> against [This.MainDefender.GetName]"
+	format = "<soul_hunt_war_names>"
 }
