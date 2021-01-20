@@ -677,8 +677,7 @@ jove_growth_boost_desc: ""
 
  decision_psionic_world: "Psionic World Conversion"
  decision_psionic_world_desc: "We can use our connection to the Shroud to change our worlds into Psionic Worlds at a cost."
-
-
+ decision_psionic_world_effects: "Turns the planet into an §Y$pc_shrouded_paradise$§!"
 
  ##ECHO Custom Jobs##
  mod_job_navy_coordinator_add: "$job_navy_coordinator$"
@@ -880,6 +879,12 @@ jove_growth_boost_desc: ""
  fe_guardian:0 "Precursor Guardian"
  fe_guardian_plural:0 "Precursor Guardians"
  fe_guardian_desc:0 "A mechanized unit used by the Precursor Empires, your doom is at hand."
+
+## Tier 2 Robotic Armies
+
+robotic_army_2: "Advanced Robotic Assault Army"
+robotic_army_2_plural: "Advanced Robotic Assault Armies"
+robotic_army_2_desc: "Cold and heartless killing-machines designed only for war. They pursue their objectives relentlessly, and are impervious to the shattering effects of poor morale that so often plague organic combat units."
 
 ## Starbase Buildings
  sm_warp_fluctuator_gestalt:0 "Hyperlane Registrar"

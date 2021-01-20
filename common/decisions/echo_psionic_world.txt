@@ -1,0 +1,42 @@
+# Psionic World
+decision_psionic_world = {
+	owned_planets_only = yes
+	enactment_time = 360
+	icon = decision_arcology_project
+	
+	resources = {
+		category = decisions
+		cost = {
+			energy = 3500
+			sr_zro = 200
+		}
+	}
+	
+	potential = {
+		NOR = {
+			is_planet_class = pc_shrouded_paradise
+			is_planet_class = pc_outpost
+		}
+		exists = owner
+		owner = { has_ascension_perk = ap_psionic_veil }
+		habitable_structure = no
+	}
+	
+	allow = {
+	}
+	
+	effect = {
+		custom_tooltip = decision_psionic_world_effects
+		hidden_effect = {
+			change_pc = pc_shrouded_paradise
+			set_planet_entity = {
+				entity = "shrouded_paradise"
+				graphical_culture = owner
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 2
+	}
+}

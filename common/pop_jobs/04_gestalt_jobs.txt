@@ -364,6 +364,7 @@ synapse_drone = {
 		upkeep = {
 			trigger = {
 				is_lithoid = no
+				is_plantoid = no
 			}
 			food = 2
 			energy = 2
@@ -374,6 +375,12 @@ synapse_drone = {
 			}
 			minerals = 2
 			energy = 2
+		}
+		upkeep = {
+			trigger = {
+				is_plantoid = yes
+			}
+			energy = 4
 		}
 	}
 

@@ -1,0 +1,38 @@
+@psicost = 7500
+@psitime = 3600
+
+
+################
+## Shrouded Paradise##
+################
+
+## Psionic Reversion ##
+
+terraform_link = {
+	to = "pc_barren"
+	from = "pc_shrouded_paradise"
+	
+	energy = @psicost
+	duration = @psitime
+
+	condition = { has_technology = "tech_climate_restoration" }
+	
+	potential = {
+		always = yes
+	}
+
+	effect = {
+		add_modifier = {
+			modifier = terraforming_candidate_precursor
+			days = -1
+		}
+	}
+	
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0
+				has_ascension_perk = ap_psionic_veil
+		}
+	}
+}
