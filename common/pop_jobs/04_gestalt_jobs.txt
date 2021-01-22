@@ -54,6 +54,7 @@ spawning_drone = {
 		upkeep = {
 			trigger = {
 				is_lithoid = no
+				is_plantoid = no
 			}
 			food = 5
 		}
@@ -67,7 +68,7 @@ spawning_drone = {
 			trigger = {
 				is_plantoid = yes
 			}
-			energy = 5
+			energy = 10
 		}
 	}
 
@@ -1307,7 +1308,7 @@ agri_drone = {
 		category = planet_farmers
 		produces = {
 			trigger = {
-				NOT = { has_trait = trait_plantoid }
+				is_plantoid = no
 			}
 			food = 6
 		}
@@ -1322,7 +1323,7 @@ agri_drone = {
 		}
 		produces = {
 			trigger = {
-				has_trait = trait_plantoid
+				is_plantoid = yes
 			}
 			energy = 6
 		}

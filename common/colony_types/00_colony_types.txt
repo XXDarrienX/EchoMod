@@ -195,7 +195,7 @@ col_farming = {
 
 	potential = {
 		exists = owner
-		owner = { country_uses_food = yes }
+		#owner = { country_uses_food = yes }
 		NOR = {
 			uses_district_set = city_world
 			uses_district_set = ring_world
@@ -1758,7 +1758,7 @@ col_ring_farming = {
 	}
 
 	planet_modifier = {
-		planet_farmers_food_produces_mult = 0.25
+		planet_farmers_produces_mult = 0.25
 	}
 
 	weight_modifier = {
