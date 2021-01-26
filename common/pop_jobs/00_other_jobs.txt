@@ -136,6 +136,16 @@ slave_toiler = {
 	possible = {
 		planet = { has_modifier = slave_colony } 		
 	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			energy = 0.25
+			minerals = 0.25
+			food = 0.25
+			unity = 0.25
+		}
+	}
 	
 	planet_modifier = {
 		planet_amenities_add = 2
@@ -360,8 +370,8 @@ purge = {
 			is_robotic_species = no
 			has_purge_type = { type = purge_processing }
         }
-        planet_jobs_produces_mult = 0.05
-        pop_growth_speed = 0.05
+        planet_jobs_produces_mult = 0.1
+        pop_growth_speed = 0.1
 	}
 
 	triggered_planet_modifier = {
@@ -372,8 +382,8 @@ purge = {
 			}
 			has_trait = trait_hive_mind
         }
-        planet_jobs_produces_mult = 0.05
-        pop_growth_speed = 0.05
+        planet_jobs_produces_mult = 0.1
+        pop_growth_speed = 0.1
 	}
 
 	triggered_planet_modifier = {

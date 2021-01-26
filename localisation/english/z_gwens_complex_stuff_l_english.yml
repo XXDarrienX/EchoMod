@@ -677,7 +677,7 @@ jove_growth_boost_desc: ""
 
  decision_psionic_world: "Psionic World Conversion"
  decision_psionic_world_desc: "We can use our connection to the Shroud to change our worlds into Psionic Worlds at a cost."
- decision_psionic_world_effects: "Turns the planet into an §Y$pc_shrouded_paradise$§!"
+ decision_psionic_world_effects: "Turns the planet into an §Y$pc_shrouded_paradise$§! in §G10§! years"
 
  ##ECHO Custom Jobs##
  mod_job_navy_coordinator_add: "$job_navy_coordinator$"
@@ -1002,3 +1002,9 @@ col_trade_desc:0 "This world is a seat of Mercantile Operations."
 ##Trait##
 trait_delicious_plantoid: "Delicious"
 trait_delicious_planetoid_desc: "§LThis species has the curious evolutionary adaptation of being highly nutritious when eaten.§!\n"
+
+## Hollow World Districts
+mod_district_queen_den_max: "Max $district_queen_den_plural$"
+
+d_abandoned_nest_2: "Queen's Lair"
+d_abandoned_nest_2_desc: "The lair of the local queen"

@@ -70,7 +70,7 @@ soul_diet10 = {
 
 stranger_boon = {
 	planet_livestock_produces_mult = 0.15
-	planet_purge_produces_mult = 0.15
+	pop_category_purge_produces_mult = 0.15
 }
 
 strangers_contract_1 = {
